@@ -1,0 +1,43 @@
+/* Dark surfaces, dimensional objects and restrained depth. */
+:root{color-scheme:dark;--navy:#101b2c;--ink:#edf4fa;--teal:#78e7cc;--mint:#78e7cc;--grey:#a5b5c8;--line:#29384c;--pale:#131f30;--white:#edf4fa}
+body{background:#080e19;background-image:radial-gradient(ellipse at 85% 8%,#18354166,transparent 34%),radial-gradient(ellipse at 0% 42%,#20234444,transparent 32%)}
+.header{background:#080e19dd;border-color:#ffffff0e;box-shadow:0 12px 40px #0002}
+.brand{color:#edf4fa}.monogram{color:var(--mint);text-shadow:0 2px 0 #255d56,0 0 22px #78e7cc33}
+nav{color:#b7c6d7}.language{color:var(--ink);background:linear-gradient(145deg,#1b2a3c,#101b2a);border-color:#34465b;box-shadow:inset 0 1px #ffffff0d,0 4px 0 #03080f;transition:background .2s,transform .2s}
+.language:hover{background:#26374b;transform:translateY(-2px)}
+.hero{position:relative;isolation:isolate;gap:76px;padding-block:85px 100px}
+.hero-copy{position:relative;z-index:2}.hero h1{font-size:clamp(2.8rem,4.55vw,4.3rem);text-shadow:0 4px 24px #0003}
+.hero h1 em{background:linear-gradient(110deg,#9bffe0,#68d9d0 55%,#96b9ff);background-clip:text;-webkit-background-clip:text;color:transparent}
+.eyebrow{color:#78e7cc}.intro{color:#adbed0}.availability>span:first-child{box-shadow:0 0 0 5px #78e7cc0a,0 0 15px #78e7cc88}
+.hero-atmosphere{position:absolute;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+.orb{position:absolute;border-radius:50%;box-shadow:inset -16px -24px 30px #020a14bb,0 26px 45px #0006}
+.orb-mint{width:110px;height:110px;inset-inline-end:1%;top:18px;background:radial-gradient(circle at 30% 24%,#defff7 0%,#7fe9d1 15%,#207e88 46%,#10283a 77%)}
+.orb-blue{width:54px;height:54px;inset-inline-start:50%;bottom:48px;background:radial-gradient(circle at 30% 25%,#e0e5ff,#8e9ceb 20%,#344a96 50%,#141a32 80%)}
+.orbit{position:absolute;width:510px;height:510px;inset-inline-end:-20px;top:110px;border:1px solid #78e7cc20;border-radius:50%;transform:rotateX(58deg) rotateZ(-24deg);box-shadow:0 0 0 32px #78e7cc03,0 0 0 65px #78e7cc02}
+.hero-visual{background:linear-gradient(135deg,#2a4455,#172337 48%,#131b2c);border:1px solid #64819266;border-radius:20px;padding:22px 20px 46px;transform:perspective(1300px) rotateY(-9deg) rotateX(5deg);transform-style:preserve-3d;box-shadow:12px 14px 0 #0e1929,13px 15px 0 #354052,26px 38px 65px #0008,0 0 65px #78e7cc0c;transition:transform .65s cubic-bezier(.2,.7,.3,1),box-shadow .65s}
+.project-window{background:#121d2d;border:1px solid #52657677;box-shadow:0 15px 28px #0007;transform:translateZ(20px)}
+.window-bar{background:#111d2c;color:#afc5d7;border-bottom:1px solid #34465b}.window-dots{color:#78e7cc}.project-window img{filter:brightness(.87) saturate(.88)}
+.hero-tag{color:#072822;background:linear-gradient(120deg,#a0f9da,#65d9c6);border:1px solid #c4ffe999;box-shadow:0 12px 30px #0006,inset 0 1px 0 #fff7;transform:translateZ(55px);inset-inline-end:8px}
+.hero-tag span:not(.tag-icon){color:#1d514a}.tag-icon{background:#e9fff333;box-shadow:inset 0 1px 2px #fff6,0 4px 8px #164c4a22}
+.button{border-radius:9px}.primary,.light{background:linear-gradient(135deg,#a0f6dc,#66d9c8);color:#082c28;border-color:#b1ffe044;box-shadow:0 5px 0 #21564e,0 12px 24px #0004,inset 0 1px #ffffff77}
+.primary:hover,.light:hover{background:linear-gradient(135deg,#bcffe8,#78e7cc);box-shadow:0 7px 0 #21564e,0 15px 28px #0005}
+.secondary,.outline{color:#e2ebf4;background:linear-gradient(145deg,#1e2c40,#131e2e);border-color:#35475d;box-shadow:inset 0 1px #ffffff0a,0 4px 0 #060b13}
+.secondary:hover,.outline:hover{background:#23354b}
+.experience-strip{background:linear-gradient(110deg,#13233399,#141d3099);border-color:#ffffff0e}.experience-grid>div{border-color:#304055}.experience-grid strong{color:#e2faf3;text-shadow:0 3px 0 #1c4a4b}
+.project{padding:18px 18px 24px;background:linear-gradient(145deg,#1a293b,#101927 75%);border:1px solid #354457;border-radius:17px;box-shadow:0 6px 0 #040911,0 18px 32px #0003,inset 0 1px #ffffff08;transition:transform .35s,border-color .35s,box-shadow .35s}
+.project-image{padding:7px;background:#0a1321;border-color:#37475b;border-radius:10px}.project-image img{filter:brightness(.88) saturate(.88)}
+.project-top{flex-wrap:wrap;align-items:flex-start}.project p{color:#aebdd0}.pill{background:#153c36;color:#9fead8;border:1px solid #326154}.pill.muted{background:#1e2b40;color:#bdcce0;border-color:#3a4960}
+.text-link{color:#9adfda}.consulting{border-color:#263449}.performance-wrap{background:radial-gradient(ellipse at 80% 40%,#15383b55,transparent 65%),#0b1321;border-block:1px solid #ffffff09}
+.chart-panel{background:linear-gradient(140deg,#19283b,#101a2a);border:1px solid #3a4c62;border-radius:17px;box-shadow:0 7px 0 #050a13,0 22px 60px #0004,inset 0 1px #ffffff0a}
+.metric-controls button{background:#202f45;color:#c3d1e1;border:1px solid #34465d}.metric-controls button[aria-pressed=true]{background:#8eedd5;color:#092d28;border-color:#aaf9e3;box-shadow:0 3px 0 #306a60}
+.track{height:14px;background:#070f1d;box-shadow:inset 0 2px 4px #0008;border:1px solid #25324a;overflow:visible}.bar{background-image:linear-gradient(#ffffff44,#ffffff00 60%,#0003)!important;box-shadow:0 2px 5px #0004,inset 0 1px #ffffff44}
+.chart-label strong{color:#edf8ff}.tags span{background:#192a3b;color:#bfe8e1;border:1px solid #324b59;box-shadow:0 3px 0 #030912}
+.clinic-scope{background:linear-gradient(130deg,#1b2a3e,#111a2a);border-color:#3b4e64;box-shadow:10px 10px 0 #0e1725,11px 11px 0 #2d3c50,22px 25px 45px #0004;transform:perspective(1400px) rotateY(-4deg)}
+.scope-head{background:#182b40;border-bottom:1px solid #34475e}.scope-symbol{background:linear-gradient(135deg,#c0ffe8,#5cccb9);box-shadow:3px 4px 0 #275952,6px 8px 13px #0005;color:#102e29}.scope-foot{background:#0d1827;color:#a9bfd3}
+.skills-wrap{background:linear-gradient(120deg,#112b30,#111a2d 75%);border-block:1px solid #2b3d49}.skills-group{padding-inline-start:24px;border-inline-start:1px solid #35505b}
+.certificate-image{background:linear-gradient(135deg,#263c4a,#172030);border-color:#506173;padding:13px;border-radius:15px;box-shadow:0 7px 0 #050b15,0 20px 45px #0006;transform:perspective(1600px) rotateY(4deg);transition:transform .35s}.certificate-image img{border-radius:6px}
+.contact-wrap{background:radial-gradient(ellipse at 15% 90%,#17403966,transparent 60%),#0d1726;border-top:1px solid #293b4a}.resume-box{background:linear-gradient(135deg,#203047,#131f31);border-color:#3b5067;box-shadow:0 8px 0 #050c16,0 20px 45px #0004,inset 0 1px #ffffff0c;border-radius:16px}.skip{background:#17263c;color:white}
+@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.hero-visual:hover{transform:perspective(1300px) rotateY(-3deg) rotateX(2deg) translateY(-7px);box-shadow:12px 14px 0 #0e1929,13px 15px 0 #354052,26px 45px 70px #0009,0 0 80px #78e7cc13}.project:hover{transform:perspective(1100px) rotateX(2deg) translateY(-7px);border-color:#64897f;box-shadow:0 8px 0 #040911,0 25px 35px #0005}.certificate-image:hover{transform:perspective(1600px) rotateY(0deg) translateY(-5px)}}
+@media(max-width:1000px){.hero{gap:38px;padding-block:60px 85px}.hero h1{font-size:3rem}.project{padding:13px 13px 21px}.hero-visual{transform:perspective(1400px) rotateY(-5deg) rotateX(3deg)}}
+@media(max-width:720px){.hero{gap:48px;padding-block:42px 75px}.hero h1{font-size:clamp(2.55rem,9vw,3.7rem)}.hero-visual{width:calc(100% - 14px);padding:16px 14px 38px;transform:perspective(1400px) rotateY(-3deg) rotateX(2deg);box-shadow:6px 8px 0 #0e1929,7px 9px 0 #354052,15px 25px 38px #0007}.hero-tag{inset-inline-start:14px;inset-inline-end:4px;transform:translateZ(20px)}.orb-mint{width:60px;height:60px;top:33%;opacity:.3}.orb-blue{width:35px;height:35px;bottom:20px;inset-inline-start:8%}.orbit{width:300px;height:300px;top:auto;bottom:60px}.project{padding:16px 16px 24px}.clinic-scope{transform:none;box-shadow:5px 7px 0 #0e1725,6px 8px 0 #2d3c50,12px 20px 30px #0004}.certificate-image{transform:none}.skills-group{padding-inline-start:14px}.chart-panel{padding:19px}.experience-grid strong{font-size:2.5rem}}
+@media(prefers-reduced-motion:reduce){.hero-visual,.project,.clinic-scope,.certificate-image{transform:none!important}.button:hover,.language:hover{transform:none}}
